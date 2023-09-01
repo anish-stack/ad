@@ -1,0 +1,68 @@
+:root {
+    --background-color1: #fafaff;
+    --background-color2: #ffffff;
+    --background-color3: #ededed;
+    --background-color4: #cad7fda4;
+    --primary-color: #4b49ac;
+    --secondary-color: #0c007d;
+    --border-color: #3f0097;
+    --one-use-color: #3f0097;
+    --two-use-color: #5500cb;
+  }
+.support-page {
+    position: relative;
+    top: -44pc;
+    z-index: 999;
+    left: 20%;
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .support-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .support-icon {
+    font-size: 40px;
+    background-color: var(--primary-color);
+    color: var(--background-color2);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .support-text {
+    color: var(--primary-color);
+  }
+  
+  .support-number {
+    color: var(--secondary-color);
+  }
+  
+  .faq-section {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+  }
+  
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    color: var(--one-use-color);
+  }
+  
+  /* Apply other styles as needed */
+  

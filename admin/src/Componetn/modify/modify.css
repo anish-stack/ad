@@ -1,0 +1,123 @@
+.main {
+  position: relative;
+  top: -55pc;
+  height: 100vh;
+  left: 20%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* Style the track */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 15px;
+  /* Width of the scrollbar */
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  /* Color of the thumb */
+  border-radius: 5px;
+  /* Rounded corners for the thumb */
+}
+
+/* Style the track when hovering over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-color);
+  /* Color of the thumb on hover */
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+  background-color: var(--background-color3);
+  /* Color of the track */
+}
+
+/* Style the track on hover */
+
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+/* Apply other styles as needed */
+.product-list {
+  display: grid;
+  max-width: 1200px;
+  height: 700px;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  overflow-x: hidden;
+}
+
+.product-card {
+  background-color: var(--background-color2);
+  padding: 20px;
+  height: 200px;
+
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.product-card img {
+margin: 0 auto;
+  max-width: 100%!important;
+  max-height: 150px!important;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.product-card p {
+  margin-top: 5px;
+}
+
+.delete-btn,
+.edit-btn {
+  background-color: var(--one-use-color);
+  color: var(--background-color2);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.edit-btn {
+  background-color: var(--two-use-color);
+  margin-left: 10px;
+}
+
+.delete-btn:hover,
+.edit-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.pagination {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+}
+
+/* Apply other styles as needed */

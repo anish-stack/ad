@@ -1,0 +1,126 @@
+:root {
+  --background-color1: #fafaff;
+  --background-color2: #ffffff;
+  --background-color3: #ededed;
+  --background-color4: #cad7fda4;
+  --primary-color: #4b49ac;
+  --secondary-color: #0c007d;
+  --Border-color: #3f0097;
+  --one-use-color: #3f0097;
+  --two-use-color: #5500cb;
+  }
+  body{
+    text-transform: capitalize;
+    background-color: var(--background-color4);
+  }
+
+  .dashboard {
+  
+  background-color: var(--background-color4);
+  max-width: 100%;
+  /* position: relative; */
+  overflow-x: hidden;
+  }
+  
+header{
+  margin-top: -25px;
+  min-height: 100vh;
+  max-width: 300px;
+  background-color: var(--primary-color);
+}
+.dashboard-heading{
+  text-align: center;
+  background-color: var(--background-color4);
+  padding: 12px;
+}
+.dashboard-heading h2{
+  font-size: 35px;
+  margin-left: 82px;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 5px;
+  color: var(--background-color2);
+}
+nav{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+nav ul{
+  text-decoration: none;
+
+  list-style-type: none;
+  line-height: 3.5;
+  display: inline;
+  text-align:left;
+  letter-spacing: 1.5px;
+}
+.icon{
+  text-decoration: none;
+cursor: pointer;
+  margin-right: 20px;
+}
+nav ul li {
+  text-decoration: none;
+ font-size: 20px;
+ color: var(--background-color4);
+}
+.nav-item{
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--background-color1);
+}
+.icon:hover{
+  color: var(--background-color2);
+}
+.widgets{
+  display: flex;
+  gap: 25px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  position: absolute;
+  top: 0;
+  height: 200px;
+  left: 60%;
+  right: 50%;
+  transform: translate(-50%);
+  width: 1200px;
+}
+.widget{
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--background-color4);
+  width: 400px;
+  height: 100%;
+}
+.widget-icon{
+  margin-top: 25px;
+  font-size: 55px;
+  color: var(--Border-color);
+}
+.loader-container{
+  position: relative;
+  top: 50%;
+}
+.widget h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+.widget p{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.welcome-text{
+
+
+}
+.welcome-text h2{
+  
+  text-transform: uppercase;
+  font-size: 55px;
+}

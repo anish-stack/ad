@@ -1,0 +1,84 @@
+:root {
+    --background-color1: #fafaff;
+    --background-color2: #ffffff;
+    --background-color3: #ededed;
+    --background-color4: #cad7fda4;
+    --primary-color: #4b49ac;
+    --secondary-color: #0c007d;
+    --border-color: #3f0097;
+    --one-use-color: #3f0097;
+    --two-use-color: #5500cb;
+  }
+.user-table {
+    position: relative;
+    top: -45pc;
+    left: 20%;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: var(--background-color1);
+    border: 1px solid var(--border-color);
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  th {
+    background-color: var(--background-color2);
+    color: var(--primary-color);
+  }
+  
+  td {
+    color: var(--one-use-color);
+  }
+  
+  img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80px;
+    max-height: 80px;
+    /* border-radius: 50%; */
+  }
+  /* In your alluser.css or a separate CSS file */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #4b49ac;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.pagination button:hover {
+  background-color: #0c007d;
+}
+
+.pagination button:disabled {
+  background-color: #ededed;
+  color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+  /* Apply other styles as needed */
+  

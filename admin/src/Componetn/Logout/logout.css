@@ -1,0 +1,24 @@
+.logout{
+    position: relative;
+    top: -20pc;
+    left: 40%;
+}
+h2{
+    position: relative;
+    left: -30%;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--background-color2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--secondary-color);
+  }
+  

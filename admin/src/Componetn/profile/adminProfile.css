@@ -1,0 +1,72 @@
+:root {
+    --background-color1: #fafaff;
+    --background-color2: #ffffff;
+    --background-color3: #ededed;
+    --background-color4: #cad7fda4;
+    --primary-color: #4b49ac;
+    --secondary-color: #0c007d;
+    --border-color: #3f0097;
+    --one-use-color: #3f0097;
+    --two-use-color: #5500cb;
+  }
+  .login{
+    position: relative;
+    top: -30pc;
+  }
+  .profile-container {
+    position: relative;
+    top: -40pc;
+    left: 50%;
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background-color1);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+  }
+  
+  .profile-image {
+    border: 1px solid var(--border-color);
+    position: relative;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    margin-bottom: 20px;
+  }
+  
+  .profile-image img {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-button {
+    background-color: var(--one-use-color);
+  }
+  
+  .logout-button {
+    background-color: var(--two-use-color);
+  }
+  
